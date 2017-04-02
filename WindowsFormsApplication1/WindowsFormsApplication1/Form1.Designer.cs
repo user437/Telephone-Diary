@@ -28,192 +28,257 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.lbfirstname = new System.Windows.Forms.Label();
+            this.lblastname = new System.Windows.Forms.Label();
+            this.lbmobilename = new System.Windows.Forms.Label();
+            this.lbemailid = new System.Windows.Forms.Label();
+            this.lbstatus = new System.Windows.Forms.Label();
+            this.tbfirstname = new System.Windows.Forms.TextBox();
+            this.tblastname = new System.Windows.Forms.TextBox();
+            this.tbmobilenumber = new System.Windows.Forms.TextBox();
+            this.tbemailid = new System.Windows.Forms.TextBox();
+            this.btmnew = new System.Windows.Forms.Button();
+            this.btminsert = new System.Windows.Forms.Button();
+            this.btmupdate = new System.Windows.Forms.Button();
+            this.btmdelete = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.cbstatus = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label2
+            // lbfirstname
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(67, 141);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "First Name";
+            this.lbfirstname.AutoSize = true;
+            this.lbfirstname.Location = new System.Drawing.Point(124, 66);
+            this.lbfirstname.Name = "lbfirstname";
+            this.lbfirstname.Size = new System.Drawing.Size(76, 17);
+            this.lbfirstname.TabIndex = 1;
+            this.lbfirstname.Text = "First Name";
             // 
-            // label3
+            // lblastname
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(65, 191);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Last Name";
+            this.lblastname.AutoSize = true;
+            this.lblastname.Location = new System.Drawing.Point(124, 136);
+            this.lblastname.Name = "lblastname";
+            this.lblastname.Size = new System.Drawing.Size(76, 17);
+            this.lblastname.TabIndex = 2;
+            this.lblastname.Text = "Last Name";
             // 
-            // label4
+            // lbmobilename
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(67, 246);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Mobile Number";
+            this.lbmobilename.AutoSize = true;
+            this.lbmobilename.Location = new System.Drawing.Point(124, 201);
+            this.lbmobilename.Name = "lbmobilename";
+            this.lbmobilename.Size = new System.Drawing.Size(103, 17);
+            this.lbmobilename.TabIndex = 3;
+            this.lbmobilename.Text = "Mobile Number";
             // 
-            // label5
+            // lbemailid
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(67, 305);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 17);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Email Id";
+            this.lbemailid.AutoSize = true;
+            this.lbemailid.Location = new System.Drawing.Point(124, 246);
+            this.lbemailid.Name = "lbemailid";
+            this.lbemailid.Size = new System.Drawing.Size(57, 17);
+            this.lbemailid.TabIndex = 4;
+            this.lbemailid.Text = "Email Id";
             // 
-            // label6
+            // lbstatus
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(65, 368);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 17);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Status";
+            this.lbstatus.AutoSize = true;
+            this.lbstatus.Location = new System.Drawing.Point(124, 301);
+            this.lbstatus.Name = "lbstatus";
+            this.lbstatus.Size = new System.Drawing.Size(48, 17);
+            this.lbstatus.TabIndex = 5;
+            this.lbstatus.Text = "Status";
             // 
-            // textBox1
+            // tbfirstname
             // 
-            this.textBox1.Location = new System.Drawing.Point(408, 136);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(303, 22);
-            this.textBox1.TabIndex = 6;
+            this.tbfirstname.Location = new System.Drawing.Point(386, 61);
+            this.tbfirstname.Name = "tbfirstname";
+            this.tbfirstname.Size = new System.Drawing.Size(303, 22);
+            this.tbfirstname.TabIndex = 6;
+            this.tbfirstname.TextChanged += new System.EventHandler(this.tbfirstname_TextChanged);
             // 
-            // textBox2
+            // tblastname
             // 
-            this.textBox2.Location = new System.Drawing.Point(408, 186);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(302, 22);
-            this.textBox2.TabIndex = 7;
+            this.tblastname.Location = new System.Drawing.Point(387, 136);
+            this.tblastname.Name = "tblastname";
+            this.tblastname.Size = new System.Drawing.Size(302, 22);
+            this.tblastname.TabIndex = 7;
             // 
-            // textBox3
+            // tbmobilenumber
             // 
-            this.textBox3.Location = new System.Drawing.Point(408, 241);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(303, 22);
-            this.textBox3.TabIndex = 8;
+            this.tbmobilenumber.Location = new System.Drawing.Point(387, 186);
+            this.tbmobilenumber.Name = "tbmobilenumber";
+            this.tbmobilenumber.Size = new System.Drawing.Size(303, 22);
+            this.tbmobilenumber.TabIndex = 8;
             // 
-            // textBox4
+            // tbemailid
             // 
-            this.textBox4.Location = new System.Drawing.Point(410, 300);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(301, 22);
-            this.textBox4.TabIndex = 9;
+            this.tbemailid.Location = new System.Drawing.Point(386, 241);
+            this.tbemailid.Name = "tbemailid";
+            this.tbemailid.Size = new System.Drawing.Size(301, 22);
+            this.tbemailid.TabIndex = 9;
             // 
-            // button1
+            // btmnew
             // 
-            this.button1.Location = new System.Drawing.Point(797, 136);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 33);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "New";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btmnew.Location = new System.Drawing.Point(783, 66);
+            this.btmnew.Name = "btmnew";
+            this.btmnew.Size = new System.Drawing.Size(141, 33);
+            this.btmnew.TabIndex = 10;
+            this.btmnew.Text = "New";
+            this.btmnew.UseVisualStyleBackColor = true;
+            this.btmnew.Click += new System.EventHandler(this.btmnew_Click);
             // 
-            // button2
+            // btminsert
             // 
-            this.button2.Location = new System.Drawing.Point(797, 186);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 32);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Insert";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btminsert.Location = new System.Drawing.Point(783, 121);
+            this.btminsert.Name = "btminsert";
+            this.btminsert.Size = new System.Drawing.Size(141, 32);
+            this.btminsert.TabIndex = 11;
+            this.btminsert.Text = "Insert";
+            this.btminsert.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btmupdate
             // 
-            this.button3.Location = new System.Drawing.Point(797, 241);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 32);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Update";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btmupdate.Location = new System.Drawing.Point(783, 176);
+            this.btmupdate.Name = "btmupdate";
+            this.btmupdate.Size = new System.Drawing.Size(141, 32);
+            this.btmupdate.TabIndex = 12;
+            this.btmupdate.Text = "Update";
+            this.btmupdate.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btmdelete
             // 
-            this.button4.Location = new System.Drawing.Point(797, 300);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(141, 33);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Delete";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btmdelete.Location = new System.Drawing.Point(783, 230);
+            this.btmdelete.Name = "btmdelete";
+            this.btmdelete.Size = new System.Drawing.Size(141, 33);
+            this.btmdelete.TabIndex = 13;
+            this.btmdelete.Text = "Delete";
+            this.btmdelete.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(482, 39);
+            this.label7.Location = new System.Drawing.Point(471, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(145, 24);
             this.label7.TabIndex = 14;
             this.label7.Text = "Phone Directory";
             // 
-            // textBox5
+            // cbstatus
             // 
-            this.textBox5.Location = new System.Drawing.Point(408, 363);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(303, 22);
-            this.textBox5.TabIndex = 15;
+            this.cbstatus.AllowDrop = true;
+            this.cbstatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbstatus.FormattingEnabled = true;
+            this.cbstatus.Items.AddRange(new object[] {
+            "Work",
+            "Home",
+            "Business",
+            "Office"});
+            this.cbstatus.Location = new System.Drawing.Point(387, 298);
+            this.cbstatus.Name = "cbstatus";
+            this.cbstatus.Size = new System.Drawing.Size(298, 24);
+            this.cbstatus.TabIndex = 15;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.dataGridView1.Location = new System.Drawing.Point(269, 353);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(545, 135);
+            this.dataGridView1.TabIndex = 16;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "First Name";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Last Name";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Mobile Number";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Email Id";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Status";
+            this.Column5.Name = "Column5";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1135, 500);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.cbstatus);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btmdelete);
+            this.Controls.Add(this.btmupdate);
+            this.Controls.Add(this.btminsert);
+            this.Controls.Add(this.btmnew);
+            this.Controls.Add(this.tbemailid);
+            this.Controls.Add(this.tbmobilenumber);
+            this.Controls.Add(this.tblastname);
+            this.Controls.Add(this.tbfirstname);
+            this.Controls.Add(this.lbstatus);
+            this.Controls.Add(this.lbemailid);
+            this.Controls.Add(this.lbmobilename);
+            this.Controls.Add(this.lblastname);
+            this.Controls.Add(this.lbfirstname);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "My Phone Directory";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label lbfirstname;
+        private System.Windows.Forms.Label lblastname;
+        private System.Windows.Forms.Label lbmobilename;
+        private System.Windows.Forms.Label lbemailid;
+        private System.Windows.Forms.Label lbstatus;
+        private System.Windows.Forms.TextBox tbfirstname;
+        private System.Windows.Forms.TextBox tblastname;
+        private System.Windows.Forms.TextBox tbmobilenumber;
+        private System.Windows.Forms.TextBox tbemailid;
+        private System.Windows.Forms.Button btmnew;
+        private System.Windows.Forms.Button btminsert;
+        private System.Windows.Forms.Button btmupdate;
+        private System.Windows.Forms.Button btmdelete;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.ComboBox cbstatus;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }
 

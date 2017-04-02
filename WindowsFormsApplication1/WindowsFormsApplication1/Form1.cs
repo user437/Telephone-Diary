@@ -19,6 +19,21 @@ namespace WindowsFormsApplication1
 
         private void label1_Click(object sender, EventArgs e)
         {
+            tbfirstname.Clear();
+            tblastname.Clear();
+            tbmobilenumber.Clear();
+            tbemailid.Clear();
+            cbstatus.SelectedIndex = -1;
+            tbfirstname.Focus();
+        }
+
+        private void tbfirstname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btmnew_Click(object sender, EventArgs e)
+        {
 
         }
     }
